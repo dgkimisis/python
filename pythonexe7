@@ -1,0 +1,5 @@
+b = 8
+print("Enter number of pronic numbers": b)
+for i in range(1, 6):
+	a=i*(i+1)
+	print(a)
