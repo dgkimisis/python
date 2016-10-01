@@ -1,0 +1,5 @@
+for i in range(3):
+	print("Enter number of triangle numbers:", a[i])
+	for j in range(a[i]):
+		b = j*(j+1)/2
+		print(b)
