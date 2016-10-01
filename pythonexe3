@@ -1,0 +1,7 @@
+A = 0
+a = 2
+b = 4
+c = 6
+import math
+A = (1/4)*math.sqrt((a+b+c)*(a+b+c)*(a-b+c)*(a-b+c))
+print(A)
