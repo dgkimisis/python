@@ -1,0 +1,4 @@
+for i in range(len(a)):
+	sum+=a[i]*b[i]
+	print('Enter number of', a[i], 'euro banknotes:', b[i])
+print(sum)
