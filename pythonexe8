@@ -1,0 +1,12 @@
+print("Enter Tax Identification Number:")
+tin = [0, 9, 0, 0, 3, 4, 3, 3, 7]
+tin.reverse()
+tin.pop(0)
+for i in range(len(tin)):
+    sum += tin[i]*2**(i+1)
+mod=sum%11
+mod=mod%10
+if i == 7:
+    print("Tax Identification Number valid.")
+elif i != 7:
+    print("Tax Identification Number not valid.")
