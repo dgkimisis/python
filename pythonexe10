@@ -1,0 +1,11 @@
+print("Enter 10 digit number: 0123456789")
+a = []
+b = []
+for i in range(10):
+  if i%2:
+    a.append(i)
+  else
+    b.append(i)
+print(a)
+print()
+print(b, end=" ")
