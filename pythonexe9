@@ -1,0 +1,10 @@
+group = [0, 1, 0, 0, 1, 0, 1, 1]
+print("Enter binary number:", group)
+sum = 0
+for i in range(len(group)):
+  sum+=group[i]
+if sum%2 == 0:
+  print("Parity check OK.")
+else:
+  print("Parity check not OK.")
+  
