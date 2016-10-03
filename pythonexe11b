@@ -1,0 +1,5 @@
+def f(n):
+	return n + math.log(n + math.log(n)/math.log(2))/math.log(2)
+def y(x):
+	return int(x)
+y(f(x))
