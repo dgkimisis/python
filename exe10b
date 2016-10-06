@@ -1,0 +1,24 @@
+print('Enter binary sequence:')
+a = 100101100100001
+b = [int(x) for x in str(a)]
+c = [0]
+y = 0
+d = [0]
+z = 0
+for i in range(len(b)):
+    if b[i] == 0:
+        c[y]=c[y] + 1
+        z = z + 1
+        d.append(0)
+    elif b[i] != 0:
+        y = y + 1
+        c.append(0)
+        d[z]=d[z] + 1
+print('Longest run was zeros with lenght:', max(c))
+print('Longest run was zeros with lenght:', max(d))
+r = 0
+if max(c) > max(d):
+    r = max(c)
+elif max(d) > max(c):
+    r = max(d)
+print('Equal longest run of ones and zeros with length:', r)
